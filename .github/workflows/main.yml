@@ -33,7 +33,7 @@ jobs:
       - name: Hook Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '14'
+          node-version: '18'
       - name: Load Dependencies
         run: npm install
       - name: Build Docs
